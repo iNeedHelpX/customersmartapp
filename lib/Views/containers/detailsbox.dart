@@ -41,7 +41,7 @@ class DetailsBox extends StatelessWidget {
                   Text(name,
                       style: TextStyle(
                           fontSize: 25,
-                          color: Colors.pinkAccent,
+                          color: Colors.white,
                           fontWeight: FontWeight.w900)),
                   Text(availSize,
                       style: TextStyle(
