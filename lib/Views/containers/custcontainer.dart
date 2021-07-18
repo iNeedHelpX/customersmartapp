@@ -9,8 +9,8 @@ class CustomContainer extends StatefulWidget {
   CustomContainer({
     required this.imgurl,
     required this.name,
+    //this is the item fee not delivery per se!
     required this.deliverfee,
-    //required this.deliveryfee
   });
 
   final String deliverfee;
