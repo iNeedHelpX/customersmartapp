@@ -72,7 +72,7 @@ class _CustomContainerState extends State<CustomContainer> {
                             child: Text(
                               widget.deliverfee,
                               style: TextStyle(
-                                fontSize: 21,
+                                fontSize: 18,
                                 fontWeight: FontWeight.w700,
                                 color: Colors.pinkAccent,
                               ),
