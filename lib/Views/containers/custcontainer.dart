@@ -74,7 +74,7 @@ class _CustomContainerState extends State<CustomContainer> {
                               style: TextStyle(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w700,
-                                color: Colors.white,
+                                color: Colors.pinkAccent,
                               ),
                             ),
                           ),
