@@ -26,9 +26,9 @@ class _ShoppingState extends State<Shopping> {
           ),
           CustomContainer(
               imgurl:
-                  'https://sc04.alicdn.com/kf/Hbaec220b2abb46f9a566412a8cd901d9x.jpg',
-              name: 'Sex doll',
-              deliverfee: "\$999"),
+                  'https://cdn.shopify.com/s/files/1/0379/3698/8205/files/ezgif-4-1b11c1aa67e3_480x480.gif?v=1597420502',
+              name: 'Fiber optic mask',
+              deliverfee: "\$25"),
           SizedBox(
             height: 20,
           ),
