@@ -19,7 +19,9 @@ class RouteGenerator {
         // Validation of correct data type
         if (args is String) {
           return MaterialPageRoute(
-            builder: (_) => DetailsView(imgUrl: args),
+            builder: (_) => DetailsView(
+              imgUrl: args,
+            ),
           );
         }
         // If args is not of the correct type, return an error page.
