@@ -1,4 +1,3 @@
-import 'package:customersmartapp/Views/containers/custcontainer.dart';
 import 'package:customersmartapp/Views/details.dart';
 import 'package:customersmartapp/enterapp.dart';
 import 'package:customersmartapp/food.dart';

@@ -1,5 +1,4 @@
 import 'package:customersmartapp/colors/colors.dart';
-import 'package:customersmartapp/shopping.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -9,7 +8,7 @@ class CustomContainer extends StatefulWidget {
   CustomContainer({
     required this.imgurl,
     required this.name,
-    //this is the item fee not delivery per se!
+    //this is the item fee not delivery pewr se!
     required this.deliverfee,
   });
 
