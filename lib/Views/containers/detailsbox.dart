@@ -1,6 +1,7 @@
 import 'package:customersmartapp/colors/grad2.dart';
 import 'package:flutter/material.dart';
 
+//not currently being used right now
 class DetailsBox extends StatelessWidget {
   final String description, name, availSize;
   const DetailsBox(
