@@ -48,11 +48,6 @@ class _ShoppingState extends State<Shopping> {
           SizedBox(
             height: 20,
           ),
-          CustomContainer(
-              imgurl:
-                  'https://sc04.alicdn.com/kf/Haf56bae68bb945759b9cbca880af0e7ez.jpg',
-              name: 'Frog ring',
-              deliverfee: "\$10")
         ],
       ),
     ));
