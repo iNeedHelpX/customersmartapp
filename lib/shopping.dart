@@ -27,7 +27,7 @@ class _ShoppingState extends State<Shopping> {
           CustomContainer(
               imgurl:
                   'https://cdn.shopify.com/s/files/1/0379/3698/8205/files/ezgif-4-1b11c1aa67e3_480x480.gif?v=1597420502',
-              name: 'Fiber optic mask',
+              name: 'Fiber Optic Mask',
               deliverfee: "\$25"),
           SizedBox(
             height: 20,
@@ -35,7 +35,7 @@ class _ShoppingState extends State<Shopping> {
           CustomContainer(
               imgurl:
                   'https://cdn.shopify.com/s/files/1/0379/3698/8205/files/ezgif-4-1eda651fbaba_480x480.gif?v=1597420417',
-              name: 'Fiber optic mask',
+              name: 'Fiber Optic Mask',
               deliverfee: "\$25"),
           SizedBox(
             height: 20,
@@ -43,7 +43,7 @@ class _ShoppingState extends State<Shopping> {
           CustomContainer(
               imgurl:
                   'https://sc04.alicdn.com/kf/Hea2914ce4f9f4d4daf2be954652a4839g.jpg',
-              name: "Menstrual cup",
+              name: "Menstrual Cup",
               deliverfee: "\$10"),
           SizedBox(
             height: 20,
@@ -51,8 +51,8 @@ class _ShoppingState extends State<Shopping> {
           CustomContainer(
               imgurl:
                   'https://sc04.alicdn.com/kf/H80605f672e5e46aa84fb39309b1f5e52L.jpg',
-              name: 't-shirt',
-              deliverfee: "\$20")
+              name: 'T-Shirt',
+              deliverfee: "\$25")
         ],
       ),
     ));
