@@ -1,6 +1,7 @@
 import 'package:customersmartapp/Views/containers/comingsoon.dart';
 import 'package:flutter/material.dart';
 
+//Food listing page.
 class Food extends StatefulWidget {
   Food({Key? key}) : super(key: key);
 

@@ -1,6 +1,7 @@
 import 'package:customersmartapp/Views/containers/custcontainer.dart';
 import 'package:flutter/material.dart';
 
+//Shopping page. User lands here when opening. Listing of merch for sale
 class Shopping extends StatefulWidget {
   Shopping({Key? key}) : super(key: key);
 
