@@ -19,29 +19,33 @@ class DetailsView extends StatelessWidget {
       body: Stack(
         children: [
           SingleChildScrollView(
-            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Expanded(
-                child: Column(
-                  children: [
-                    Container(
-                      width: size.width,
-                      child:
-                          Image(image: NetworkImage(imgUrl), fit: BoxFit.cover),
-                    ),
-                  ],
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Expanded(
+                  child: Column(
+                    children: [
+                      Container(
+                        width: size.width,
+                        child: Image(
+                            image: NetworkImage(imgUrl), fit: BoxFit.cover),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-            ]),
+              ],
+            ),
           ),
           SafeArea(
             child: IconButton(
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                icon: Icon(
-                  Icons.backspace,
-                  color: Color.fromARGB(255, 247, 0, 97),
-                )),
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: Icon(
+                Icons.backspace,
+                color: Color.fromARGB(255, 247, 0, 97),
+              ),
+            ),
           ),
         ],
       ),

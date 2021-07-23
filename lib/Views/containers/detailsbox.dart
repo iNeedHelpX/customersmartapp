@@ -20,10 +20,11 @@ class DetailsBox extends StatelessWidget {
       child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
         Container(
           margin: EdgeInsets.only(
-              top: size.width * 0.55,
-              left: 50.0,
-              right: 50.0,
-              bottom: size.width * 0.28),
+            top: size.width * 0.55,
+            left: 50.0,
+            right: 50.0,
+            bottom: size.width * 0.28,
+          ),
         ),
         Expanded(
           child: Container(
@@ -38,16 +39,22 @@ class DetailsBox extends StatelessWidget {
             child: SingleChildScrollView(
               child: Column(
                 children: [
-                  Text(name,
-                      style: TextStyle(
-                          fontSize: 25,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w900)),
-                  Text(availSize,
-                      style: TextStyle(
-                          fontSize: 22,
-                          color: Colors.purpleAccent,
-                          fontWeight: FontWeight.w900)),
+                  Text(
+                    name,
+                    style: TextStyle(
+                      fontSize: 25,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w900,
+                    ),
+                  ),
+                  Text(
+                    availSize,
+                    style: TextStyle(
+                      fontSize: 22,
+                      color: Colors.purpleAccent,
+                      fontWeight: FontWeight.w900,
+                    ),
+                  ),
                   Container(
                     padding: EdgeInsets.all(10),
                     width: 155,
