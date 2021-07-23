@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//the account page
 class Account extends StatefulWidget {
   Account({Key? key}) : super(key: key);
 
