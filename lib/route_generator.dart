@@ -9,7 +9,7 @@ class RouteGenerator {
     final args = settings.arguments;
 
     switch (settings.name) {
-      case '/':
+      case '/enter':
         return MaterialPageRoute(builder: (_) => EnterPoint());
       case '/foodinfo':
         return MaterialPageRoute(builder: (_) => Food());

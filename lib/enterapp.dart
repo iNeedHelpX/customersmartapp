@@ -14,7 +14,7 @@ class _EnterPointState extends State<EnterPoint> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/',
+      initialRoute: '/enter',
       onGenerateRoute: RouteGenerator.generateRoute,
       home: GestureDetector(
         onTap: () {
