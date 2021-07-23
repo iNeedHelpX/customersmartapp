@@ -10,10 +10,15 @@ AppBar myAppBar() {
     ),
     actions: [
       IconButton(
-        padding: EdgeInsets.only(right: 20),
-        onPressed: () {},
-        icon: Icon(Icons.shopping_cart_outlined),
-      ),
+        padding: EdgeInsets.only(right: 15),
+        icon: Icon(
+          Icons.shopping_bag_rounded,
+          color: Colors.purpleAccent[50],
+        ),
+        onPressed: () {
+          // what happens when the button is pressed. Call to existing-cards
+        },
+      )
     ],
     flexibleSpace: ClipRRect(
       borderRadius: BorderRadius.only(
