@@ -15,9 +15,15 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  //this directs to the shopping page
   int selectedpage = 1;
 
-  final _pageOptions = [Food(), Shopping(), Account()];
+//list of pages that one can navigate to using the navbar
+  final _pageOptions = [
+    Food(),
+    Shopping(),
+    Account(),
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,6 +35,7 @@ class _HomeState extends State<Home> {
     );
   }
 
+//the nav bar at the bottom
   CurvedNavigationBar buildCurvedNavigationBar() {
     return CurvedNavigationBar(
       index: selectedpage,

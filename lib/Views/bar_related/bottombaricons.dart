@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//the navbar icons
 List<Widget> listBarIcons() {
   return <Widget>[
     Icon(
