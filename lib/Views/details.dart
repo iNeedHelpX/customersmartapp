@@ -2,6 +2,7 @@ import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+// the detail view page that is the by product of clicking through on a listing from the shopping page
 class DetailsView extends StatelessWidget {
   final String imgUrl;
 
