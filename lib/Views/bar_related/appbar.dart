@@ -1,3 +1,4 @@
+import 'package:customersmartapp/Views/bar_related/buttonaction.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:customersmartapp/colors/gradient1.dart';
 import 'package:flutter/material.dart';
@@ -8,18 +9,7 @@ AppBar myAppBar() {
     leading: Padding(
       padding: EdgeInsets.all(5),
     ),
-    actions: [
-      IconButton(
-        padding: EdgeInsets.only(right: 15),
-        icon: Icon(
-          Icons.shopping_bag_rounded,
-          color: Colors.purpleAccent[50],
-        ),
-        onPressed: () {
-          // what happens when the button is pressed. Call to existing-cards
-        },
-      )
-    ],
+    actions: [buttonAction()],
     flexibleSpace: ClipRRect(
       borderRadius: BorderRadius.only(
         bottomLeft: Radius.circular(24),
