@@ -17,18 +17,9 @@ class _ShoppingState extends State<Shopping> {
       child: Column(
         children: [
           CustomContainer(
-            imgurl:
-                'https://cdn.shopify.com/s/files/1/0440/3629/2757/products/led_mask_girl_600x.gif?v=1603137689',
-            name: "Fiber Optic Mask",
-            deliverfee: '\$25',
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          CustomContainer(
               imgurl:
                   'https://cdn.shopify.com/s/files/1/0379/3698/8205/files/ezgif-4-1b11c1aa67e3_480x480.gif?v=1597420502',
-              name: 'Fiber Optic Mask',
+              name: 'Glow Face Mask',
               deliverfee: "\$25"),
           SizedBox(
             height: 20,
@@ -36,7 +27,7 @@ class _ShoppingState extends State<Shopping> {
           CustomContainer(
               imgurl:
                   'https://cdn.shopify.com/s/files/1/0379/3698/8205/files/ezgif-4-1eda651fbaba_480x480.gif?v=1597420417',
-              name: 'Fiber Optic Mask',
+              name: 'Glow Face Mask',
               deliverfee: "\$25"),
           SizedBox(
             height: 20,
