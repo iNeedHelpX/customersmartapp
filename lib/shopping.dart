@@ -26,6 +26,14 @@ class _ShoppingState extends State<Shopping> {
           ),
           CustomContainer(
               imgurl:
+                  'https://cdn.thisiswhyimbroke.com/images/color-changing-led-eyelashes-cylaplex1.gif',
+              name: 'LED lashes',
+              deliverfee: '\$20'),
+          SizedBox(
+            height: 20,
+          ),
+          CustomContainer(
+              imgurl:
                   'https://cdn.shopify.com/s/files/1/0379/3698/8205/files/ezgif-4-1eda651fbaba_480x480.gif?v=1597420417',
               name: 'Glow Face Mask',
               deliverfee: "\$25"),
