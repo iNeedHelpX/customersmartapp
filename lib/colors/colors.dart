@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//colors list for background of app
 const backdrop = Color.fromARGB(255, 26, 26, 33);
 const bg = Color.fromARGB(255, 44, 41, 72);
 
