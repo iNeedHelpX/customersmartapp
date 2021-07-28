@@ -3,6 +3,7 @@ import 'package:customersmartapp/account.dart';
 import 'package:customersmartapp/Views/bar_related/appbar.dart';
 import 'package:customersmartapp/Views/bar_related/bottombaricons.dart';
 import 'package:customersmartapp/food.dart';
+import 'package:customersmartapp/grocery.dart';
 import 'package:customersmartapp/shopping.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
@@ -16,11 +17,12 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   //this directs to the shopping page
-  int selectedpage = 1;
+  int selectedpage = 2;
 
 //list of pages that one can navigate to using the navbar
   final _pageOptions = [
     Food(),
+    GroceryShop(),
     Shopping(),
     Account(),
   ];
