@@ -9,7 +9,17 @@ AppBar myAppBar() {
     leading: Padding(
       padding: EdgeInsets.all(5),
     ),
-    actions: [buttonAction()],
+    actions: [
+      Padding(
+          padding: const EdgeInsets.all(15.0),
+          child: IconButton(
+            icon: Icon(
+              Icons.shopping_bag_rounded,
+              color: Colors.purpleAccent[60],
+            ),
+            onPressed: () {},
+          ))
+    ],
     flexibleSpace: ClipRRect(
       borderRadius: BorderRadius.only(
         bottomLeft: Radius.circular(24),
