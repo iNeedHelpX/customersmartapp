@@ -9,11 +9,6 @@ List<Widget> listBarIcons() {
       color: Colors.black,
     ),
     Icon(
-      Icons.rice_bowl,
-      size: 30,
-      color: Colors.black,
-    ),
-    Icon(
       Icons.local_mall,
       size: 30,
       color: Colors.black,
