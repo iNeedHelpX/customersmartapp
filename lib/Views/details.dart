@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 
 // the detail view page that is the by product of clicking through on a listing from the shopping page
 class DetailsView extends StatelessWidget {
-  final String imgUrl;
-  final String name;
-
+  // final String imgUrl;
+  // final String name;
+  final String imgUrl, name;
   const DetailsView({required this.imgUrl, required this.name});
 
   @override

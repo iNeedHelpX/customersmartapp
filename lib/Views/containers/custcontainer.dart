@@ -27,7 +27,8 @@ class _CustomContainerState extends State<CustomContainer> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.of(context).pushNamed('/details', arguments: widget.imgurl);
+        Navigator.of(context)
+            .pushNamed('/details', arguments: {(widget.imgurl), widget.name});
       },
       child: Container(
         margin: EdgeInsets.fromLTRB(15, 5, 15, 5),
