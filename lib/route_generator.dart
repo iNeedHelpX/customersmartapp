@@ -20,6 +20,7 @@ class RouteGenerator {
           return MaterialPageRoute(
             builder: (_) => DetailsView(
               imgUrl: args,
+              name: args,
             ),
           );
         }

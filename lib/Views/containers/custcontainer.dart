@@ -1,3 +1,5 @@
+import 'package:customersmartapp/Views/containers/detailsbox.dart';
+import 'package:customersmartapp/Views/details.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -25,10 +27,7 @@ class _CustomContainerState extends State<CustomContainer> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.of(context).pushNamed(
-          '/details',
-          arguments: widget.imgurl,
-        );
+        Navigator.of(context).pushNamed('/details', arguments: widget.imgurl);
       },
       child: Container(
         margin: EdgeInsets.fromLTRB(15, 5, 15, 5),
