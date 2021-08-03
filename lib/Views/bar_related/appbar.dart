@@ -11,26 +11,27 @@ AppBar pinkAppBar(BuildContext context) {
     ),
     actions: [
       Padding(
-          padding: const EdgeInsets.all(15.0),
-          child: IconButton(
-            icon: Icon(
-              Icons.shopping_bag_rounded,
-              color: Colors.purpleAccent[60],
-            ),
-            onPressed: () {
-              showModalBottomSheet(
-                  backgroundColor: bg,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(22)),
-                  context: context,
-                  builder: (BuildContext context) {
-                    return Container(
-                      height: 600,
-                      //decoration: BoxDecoration(gradient: gradSheet()),
-                    );
-                  });
-            },
-          ))
+        padding: const EdgeInsets.all(15.0),
+        child: IconButton(
+          icon: Icon(
+            Icons.shopping_bag_rounded,
+            color: Colors.purpleAccent[60],
+          ),
+          onPressed: () {
+            showModalBottomSheet(
+                backgroundColor: bg,
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(22)),
+                context: context,
+                builder: (BuildContext context) {
+                  return Container(
+                    height: 600,
+                    //decoration: BoxDecoration(gradient: gradSheet()),
+                  );
+                });
+          },
+        ),
+      )
     ],
     flexibleSpace: ClipRRect(
       borderRadius: BorderRadius.only(
