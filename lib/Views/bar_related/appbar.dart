@@ -40,7 +40,7 @@ AppBar pinkAppBar(BuildContext context) {
                         EmailText(
                           emailQue: 'enter email',
                         ),
-                        SizedBox(height: 20),
+                        SizedBox(height: 10),
                         PasswordText(passwordQue: 'enter password')
                       ],
                     ),
