@@ -64,14 +64,13 @@ class _EmailTextState extends State<EmailText> {
       keyboardType: TextInputType.emailAddress,
       // onSaved: (input) => loginRequestModel.email = input,
       validator: (input) =>
-          input!.contains('@') ? "Email Id should be valid" : null,
+          !input!.contains('@') ? "Email Id should be valid" : null,
       decoration: new InputDecoration(
         hintText: widget.emailQue,
         enabledBorder: UnderlineInputBorder(
-            borderSide: BorderSide(
-                color: Theme.of(context).accentColor.withOpacity(0.2))),
-        focusedBorder: UnderlineInputBorder(
-            borderSide: BorderSide(color: Theme.of(context).accentColor)),
+            borderSide: BorderSide(color: Colors.amber.withOpacity(0.2))),
+        focusedBorder:
+            UnderlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
         prefixIcon: Icon(
           Icons.email,
           color: Theme.of(context).accentColor,
