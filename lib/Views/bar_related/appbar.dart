@@ -1,3 +1,4 @@
+import 'package:customersmartapp/Views/login/emailtext.dart';
 import 'package:customersmartapp/Views/login/signup/login.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:customersmartapp/colors/gradient1.dart';
