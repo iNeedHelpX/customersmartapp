@@ -1,5 +1,4 @@
 import 'package:customersmartapp/colors/colors.dart';
-import 'package:customersmartapp/colors/grad2.dart';
 import 'package:customersmartapp/colors/gradient1.dart';
 import 'package:customersmartapp/colors/gradsheet.dart';
 import 'package:flutter/material.dart';
