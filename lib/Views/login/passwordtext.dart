@@ -1,3 +1,4 @@
+import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 
 //handle password
@@ -17,21 +18,25 @@ class _PasswordTextState extends State<PasswordText> {
     return TextFormField(
       style: TextStyle(color: Theme.of(context).accentColor),
       keyboardType: TextInputType.text,
+      maxLength: 25,
       //onSaved: (input) => loginRequestModel.password = input,
       validator: (input) => input!.length < 3
           ? "Password should be more than 3 characters"
           : null,
       obscureText: hidePassword,
-      decoration: new InputDecoration(
+      decoration: InputDecoration(
+        hintStyle: TextStyle(color: text4, fontWeight: FontWeight.w500),
         hintText: "Password",
         enabledBorder: UnderlineInputBorder(
-            borderSide: BorderSide(
-                color: Theme.of(context).accentColor.withOpacity(0.2))),
-        focusedBorder: UnderlineInputBorder(
-            borderSide: BorderSide(color: Theme.of(context).accentColor)),
+          borderSide: BorderSide(
+            color: Colors.amber.withOpacity(0.2),
+          ),
+        ),
+        focusedBorder:
+            UnderlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
         prefixIcon: Icon(
           Icons.lock,
-          color: Theme.of(context).accentColor,
+          color: Color.fromARGB(255, 68, 33, 149),
         ),
         suffixIcon: IconButton(
           onPressed: () {
@@ -39,8 +44,8 @@ class _PasswordTextState extends State<PasswordText> {
               hidePassword = !hidePassword;
             });
           },
-          color: Theme.of(context).accentColor.withOpacity(0.4),
-          icon: Icon(hidePassword ? Icons.visibility_off : Icons.visibility),
+          color: Colors.red,
+          icon: Icon(hidePassword ? Icons.visibility : Icons.visibility),
         ),
       ),
     );
