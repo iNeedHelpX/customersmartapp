@@ -26,6 +26,8 @@ AppBar pinkAppBar(BuildContext context) {
                 context: context,
                 builder: (BuildContext context) {
                   return Container(
+                    padding: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
+                    margin: EdgeInsets.symmetric(vertical: 85, horizontal: 20),
                     height: 600,
                     child: EmailText(
                       emailQue: 'enter email',
