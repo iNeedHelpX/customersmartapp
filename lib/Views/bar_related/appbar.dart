@@ -1,3 +1,4 @@
+import 'package:customersmartapp/Views/login/signup/login.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:customersmartapp/colors/gradient1.dart';
 import 'package:flutter/material.dart';
@@ -26,6 +27,9 @@ AppBar pinkAppBar(BuildContext context) {
                 builder: (BuildContext context) {
                   return Container(
                     height: 600,
+                    child: EmailText(
+                      emailQue: 'enter email',
+                    ),
                     //decoration: BoxDecoration(gradient: gradSheet()),
                   );
                 });
