@@ -28,9 +28,7 @@ class _PasswordTextState extends State<PasswordText> {
         hintStyle: TextStyle(color: text4, fontWeight: FontWeight.w500),
         hintText: "Password",
         enabledBorder: UnderlineInputBorder(
-          borderSide: BorderSide(
-            color: Colors.amber.withOpacity(0.2),
-          ),
+          borderSide: BorderSide(color: Colors.amber),
         ),
         focusedBorder:
             UnderlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
@@ -44,7 +42,7 @@ class _PasswordTextState extends State<PasswordText> {
               hidePassword = !hidePassword;
             });
           },
-          color: Colors.red,
+          color: Color.fromARGB(255, 255, 227, 121),
           icon: Icon(hidePassword ? Icons.visibility : Icons.visibility),
         ),
       ),

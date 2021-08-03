@@ -41,7 +41,12 @@ AppBar pinkAppBar(BuildContext context) {
                           emailQue: 'enter email',
                         ),
                         SizedBox(height: 10),
-                        PasswordText(passwordQue: 'enter password')
+                        PasswordText(passwordQue: 'enter password'),
+                        SizedBox(height: 10),
+                        Container(
+                            padding: EdgeInsets.symmetric(vertical: 20),
+                            margin: EdgeInsets.symmetric(horizontal: 60),
+                            color: Colors.teal)
                       ],
                     ),
                     //decoration: BoxDecoration(gradient: gradSheet()),
