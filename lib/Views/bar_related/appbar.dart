@@ -26,9 +26,11 @@ AppBar pinkAppBar(BuildContext context) {
             showModalBottomSheet(
                 backgroundColor: bg,
                 shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(22)),
+                  borderRadius: BorderRadius.circular(22),
+                ),
                 context: context,
                 builder: (BuildContext context) {
+                  //the pink/purple container that hosts the login
                   return Container(
                     padding: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
                     margin: EdgeInsets.symmetric(vertical: 100, horizontal: 40),
