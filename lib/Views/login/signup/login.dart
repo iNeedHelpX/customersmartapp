@@ -68,9 +68,13 @@ class _EmailTextState extends State<EmailText> {
       decoration: new InputDecoration(
         hintText: widget.emailQue,
         enabledBorder: UnderlineInputBorder(
-            borderSide: BorderSide(color: Colors.amber.withOpacity(0.2))),
-        focusedBorder:
-            UnderlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
+          borderSide: BorderSide(
+            color: Colors.amber.withOpacity(0.2),
+          ),
+        ),
+        focusedBorder: UnderlineInputBorder(
+          borderSide: BorderSide(color: Colors.grey),
+        ),
         prefixIcon: Icon(
           Icons.email,
           color: Theme.of(context).accentColor,
