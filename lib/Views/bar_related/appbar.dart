@@ -2,7 +2,6 @@ import 'package:customersmartapp/Views/login/emailtext.dart';
 import 'package:customersmartapp/Views/login/loginbutton.dart';
 import 'package:customersmartapp/Views/login/passwordtext.dart';
 import 'package:customersmartapp/colors/colors.dart';
-import 'package:customersmartapp/colors/cominggrad.dart';
 import 'package:customersmartapp/colors/gradient1.dart';
 import 'package:customersmartapp/colors/gradsheet.dart';
 import 'package:flutter/material.dart';
