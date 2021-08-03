@@ -66,6 +66,7 @@ class _EmailTextState extends State<EmailText> {
       validator: (input) =>
           !input!.contains('@') ? "Email Id should be valid" : null,
       decoration: new InputDecoration(
+        labelStyle: TextStyle(color: Colors.pink),
         hintText: widget.emailQue,
         enabledBorder: UnderlineInputBorder(
           borderSide: BorderSide(
