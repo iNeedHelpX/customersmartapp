@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//handle password
 class PasswordText extends StatefulWidget {
   final String passwordQue;
 

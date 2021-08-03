@@ -1,4 +1,5 @@
 import 'package:customersmartapp/Views/login/emailtext.dart';
+import 'package:customersmartapp/Views/login/passwordtext.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -40,6 +41,10 @@ class _LoginState extends State<Login> {
               EmailText(
                 emailQue: 'Enter your Email',
               ),
+              SizedBox(
+                height: 10,
+              ),
+              PasswordText(passwordQue: 'Enter your Password')
             ],
           ),
         ),

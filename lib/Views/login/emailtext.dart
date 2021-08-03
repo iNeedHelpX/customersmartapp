@@ -1,6 +1,7 @@
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 
+//handle email
 class EmailText extends StatefulWidget {
   final String emailQue;
   const EmailText({
