@@ -1,6 +1,7 @@
 import 'package:customersmartapp/Views/login/emailtext.dart';
 import 'package:customersmartapp/Views/login/passwordtext.dart';
 import 'package:customersmartapp/colors/colors.dart';
+import 'package:customersmartapp/colors/cominggrad.dart';
 import 'package:customersmartapp/colors/gradient1.dart';
 import 'package:customersmartapp/colors/gradsheet.dart';
 import 'package:flutter/material.dart';
@@ -43,10 +44,7 @@ AppBar pinkAppBar(BuildContext context) {
                         SizedBox(height: 10),
                         PasswordText(passwordQue: 'enter password'),
                         SizedBox(height: 10),
-                        Container(
-                            padding: EdgeInsets.symmetric(vertical: 20),
-                            margin: EdgeInsets.symmetric(horizontal: 60),
-                            color: Colors.teal)
+                        LoginButtonContainer(loginButton: 'Login')
                       ],
                     ),
                     //decoration: BoxDecoration(gradient: gradSheet()),
@@ -100,4 +98,30 @@ AppBar pinkAppBar(BuildContext context) {
       ),
     ),
   );
+}
+
+class LoginButtonContainer extends StatelessWidget {
+  final String loginButton;
+  const LoginButtonContainer({required this.loginButton});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      //this keeps text aligned to center of button
+      alignment: Alignment.center,
+      height: 50,
+      width: 78,
+      decoration: BoxDecoration(
+        gradient: upComing(),
+        borderRadius: BorderRadius.circular(22),
+      ),
+      child: Text(
+        this.loginButton,
+        style: TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.w500,
+        ),
+      ),
+    );
+  }
 }
