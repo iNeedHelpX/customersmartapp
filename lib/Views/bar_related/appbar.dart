@@ -20,14 +20,14 @@ AppBar pinkAppBar(BuildContext context) {
             ),
             onPressed: () {
               showModalBottomSheet(
+                  backgroundColor: bg,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(22)),
                   context: context,
                   builder: (BuildContext context) {
                     return Container(
                       height: 600,
-                      decoration: BoxDecoration(
-                        gradient: gradSheet(),
-                        borderRadius: BorderRadius.circular(25),
-                      ),
+                      //decoration: BoxDecoration(gradient: gradSheet()),
                     );
                   });
             },
