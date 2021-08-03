@@ -36,30 +36,47 @@ class _LoginState extends State<Login> {
                 style: Theme.of(context).textTheme.headline2,
               ),
               SizedBox(height: 20),
-              TextFormField(
-                keyboardType: TextInputType.emailAddress,
-                // onSaved: (input) => loginRequestModel.email = input,
-                validator: (input) =>
-                    input!.contains('@') ? "Email Id should be valid" : null,
-                decoration: new InputDecoration(
-                  hintText: "Email Address",
-                  enabledBorder: UnderlineInputBorder(
-                      borderSide: BorderSide(
-                          color:
-                              Theme.of(context).accentColor.withOpacity(0.2))),
-                  focusedBorder: UnderlineInputBorder(
-                      borderSide:
-                          BorderSide(color: Theme.of(context).accentColor)),
-                  prefixIcon: Icon(
-                    Icons.email,
-                    color: Theme.of(context).accentColor,
-                  ),
-                ),
+              EmailText(
+                emailQue: 'Enter your Email',
               ),
             ],
           ),
         ),
       ),
     ]);
+  }
+}
+
+class EmailText extends StatefulWidget {
+  final String emailQue;
+  const EmailText({
+    required this.emailQue,
+  });
+
+  @override
+  _EmailTextState createState() => _EmailTextState();
+}
+
+class _EmailTextState extends State<EmailText> {
+  @override
+  Widget build(BuildContext context) {
+    return TextFormField(
+      keyboardType: TextInputType.emailAddress,
+      // onSaved: (input) => loginRequestModel.email = input,
+      validator: (input) =>
+          input!.contains('@') ? "Email Id should be valid" : null,
+      decoration: new InputDecoration(
+        hintText: widget.emailQue,
+        enabledBorder: UnderlineInputBorder(
+            borderSide: BorderSide(
+                color: Theme.of(context).accentColor.withOpacity(0.2))),
+        focusedBorder: UnderlineInputBorder(
+            borderSide: BorderSide(color: Theme.of(context).accentColor)),
+        prefixIcon: Icon(
+          Icons.email,
+          color: Theme.of(context).accentColor,
+        ),
+      ),
+    );
   }
 }
