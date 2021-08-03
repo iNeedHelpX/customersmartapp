@@ -1,5 +1,3 @@
-import 'package:customersmartapp/Views/containers/detailsbox.dart';
-import 'package:customersmartapp/Views/details.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';

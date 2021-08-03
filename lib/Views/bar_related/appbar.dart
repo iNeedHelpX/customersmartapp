@@ -1,9 +1,11 @@
 import 'package:customersmartapp/colors/colors.dart';
+import 'package:customersmartapp/colors/grad2.dart';
 import 'package:customersmartapp/colors/gradient1.dart';
 import 'package:flutter/material.dart';
 
 //top appbar. Its a pink gradient
-AppBar myAppBar() {
+
+AppBar pinkAppBar(BuildContext context) {
   return AppBar(
     leading: Padding(
       padding: EdgeInsets.all(5),
@@ -16,7 +18,22 @@ AppBar myAppBar() {
               Icons.shopping_bag_rounded,
               color: Colors.purpleAccent[60],
             ),
-            onPressed: () {},
+            onPressed: () {
+              showModalBottomSheet(
+                  context: context,
+                  builder: (BuildContext context) {
+                    return Container(
+                      height: 600,
+                      decoration: BoxDecoration(
+                        gradient: grad2(),
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(15),
+                          topLeft: Radius.circular(15),
+                        ),
+                      ),
+                    );
+                  });
+            },
           ))
     ],
     flexibleSpace: ClipRRect(

@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: bg,
-      appBar: myAppBar(),
+      appBar: pinkAppBar(context),
       resizeToAvoidBottomInset: true,
       body: _pageOptions[selectedpage],
       bottomNavigationBar: buildCurvedNavigationBar(),
