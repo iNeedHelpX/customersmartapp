@@ -84,7 +84,7 @@ AppBar pinkAppBar(BuildContext context) {
           Text(
             "Online Shop",
             style: TextStyle(
-              fontFamily: 'Tak',
+              fontFamily: 'asian',
               color: textbg,
               fontWeight: FontWeight.w500,
               fontSize: 55,

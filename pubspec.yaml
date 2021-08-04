@@ -71,6 +71,10 @@ flutter:
       fonts:
         - asset: assets/fonts/tak.ttf
 
+    - family: asian
+      fonts:
+        - asset: assets/fonts/ASIAN.otf
+
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
