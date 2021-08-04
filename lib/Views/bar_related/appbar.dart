@@ -68,7 +68,7 @@ AppBar pinkAppBar(BuildContext context) {
       ),
     ),
     elevation: 16,
-    shadowColor: Color.fromARGB(255, 56, 56, 58),
+    shadowColor: textshadow1,
     backgroundColor: Colors.transparent,
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.only(

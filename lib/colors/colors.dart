@@ -16,3 +16,6 @@ const text4 = Color.fromARGB(255, 109, 255, 238);
 
 const textbg = Color.fromARGB(255, 36, 35, 42);
 const tabicon = Color.fromARGB(255, 252, 0, 165);
+
+//text shadow
+const textshadow1 = Color.fromARGB(255, 56, 56, 58);
