@@ -50,6 +50,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
+  crypto_font_icons:
+    dependency: "direct main"
+    description:
+      name: crypto_font_icons
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0+1"
   cupertino_icons:
     dependency: "direct main"
     description:
