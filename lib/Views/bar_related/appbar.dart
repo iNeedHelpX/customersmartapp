@@ -84,9 +84,10 @@ AppBar pinkAppBar(BuildContext context) {
           Text(
             "Online Shop",
             style: TextStyle(
+              fontFamily: 'BLAST',
               color: textbg,
               fontWeight: FontWeight.w500,
-              fontSize: 35,
+              fontSize: 45,
               shadows: [
                 Shadow(
                   offset: Offset(6.0, 8.0),
