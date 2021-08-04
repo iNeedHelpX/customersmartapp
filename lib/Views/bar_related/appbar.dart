@@ -87,7 +87,7 @@ AppBar pinkAppBar(BuildContext context) {
               fontFamily: 'asian',
               color: textbg,
               fontWeight: FontWeight.w500,
-              fontSize: 50,
+              fontSize: 45,
               shadows: [
                 Shadow(
                   offset: Offset(6.0, 8.0),
