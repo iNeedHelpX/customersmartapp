@@ -66,7 +66,11 @@ flutter:
     - family: BLAST
       fonts:
         - asset: assets/fonts/Road_BLAST.otf
-  #       - asset: fonts/Schyler-Italic.ttf
+
+    - family: Tak
+      fonts:
+        - asset: assets/fonts/tak.ttf
+
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
