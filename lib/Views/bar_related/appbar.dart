@@ -1,9 +1,11 @@
 import 'package:customersmartapp/Views/login/emailtext.dart';
 import 'package:customersmartapp/Views/login/loginbutton.dart';
 import 'package:customersmartapp/Views/login/passwordtext.dart';
+import 'package:customersmartapp/colors/brightgrad.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:customersmartapp/colors/gradient1.dart';
 import 'package:customersmartapp/colors/gradsheet.dart';
+import 'package:customersmartapp/colors/purgrad.dart';
 import 'package:flutter/material.dart';
 
 //top appbar. Its a pink gradient
@@ -35,7 +37,7 @@ AppBar pinkAppBar(BuildContext context) {
                     margin: EdgeInsets.symmetric(vertical: 100, horizontal: 40),
                     height: 600,
                     decoration: BoxDecoration(
-                      gradient: gradSheet(),
+                      gradient: purGrad(),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     child: Column(
