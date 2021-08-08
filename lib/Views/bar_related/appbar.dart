@@ -22,36 +22,7 @@ AppBar pinkAppBar(BuildContext context) {
             color: Colors.purpleAccent[60],
           ),
           onPressed: () {
-            showModalBottomSheet(
-                backgroundColor: bg,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(22),
-                ),
-                context: context,
-                builder: (BuildContext context) {
-                  //the pink/purple container that hosts the login
-                  return Container(
-                    padding: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
-                    margin: EdgeInsets.symmetric(vertical: 100, horizontal: 40),
-                    height: 600,
-                    decoration: BoxDecoration(
-                      gradient: purGrad(),
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    child: Column(
-                      children: [
-                        EmailText(
-                          emailQue: 'enter email',
-                        ),
-                        SizedBox(height: 10),
-                        PasswordText(passwordQue: 'enter password'),
-                        SizedBox(height: 10),
-                        LoginButtonContainer(loginButton: 'Login')
-                      ],
-                    ),
-                    //decoration: BoxDecoration(gradient: gradSheet()),
-                  );
-                });
+            bottomSheet(context);
           },
         ),
       )
@@ -101,4 +72,37 @@ AppBar pinkAppBar(BuildContext context) {
       ),
     ),
   );
+}
+
+Future<dynamic> bottomSheet(BuildContext context) {
+  return showModalBottomSheet(
+      backgroundColor: bg,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(22),
+      ),
+      context: context,
+      builder: (BuildContext context) {
+        //the pink/purple container that hosts the login
+        return Container(
+          padding: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
+          margin: EdgeInsets.symmetric(vertical: 100, horizontal: 40),
+          height: 600,
+          decoration: BoxDecoration(
+            gradient: purGrad(),
+            borderRadius: BorderRadius.circular(15),
+          ),
+          child: Column(
+            children: [
+              EmailText(
+                emailQue: 'enter email',
+              ),
+              SizedBox(height: 10),
+              PasswordText(passwordQue: 'enter password'),
+              SizedBox(height: 10),
+              LoginButtonContainer(loginButton: 'Login')
+            ],
+          ),
+          //decoration: BoxDecoration(gradient: gradSheet()),
+        );
+      });
 }
