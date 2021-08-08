@@ -74,7 +74,7 @@ AppBar pinkAppBar(BuildContext context) {
   );
 }
 
-//bottom sheet
+//bottom sheet pop up, this is the sheet that pops up when icon in top right corner gets pressed!
 
 Future<dynamic> bottomSheet(BuildContext context) {
   return showModalBottomSheet(
