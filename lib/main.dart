@@ -4,6 +4,6 @@ import 'package:flutter/services.dart';
 
 void main() {
   //set portrait up orientation. Not able to rotate.
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  // SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(EnterPoint());
 }
