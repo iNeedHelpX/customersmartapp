@@ -15,5 +15,16 @@ contract Logistics {
         string itemName;
         string transitStatus;
     }
+    mapping(address => PackageDetails) packageMapping;
+
     //END DECLARATION
+    function orderItem(uint256 _itemID, string _itemName)
+        public
+        returns (address)
+    {
+        address uniqueId = address(sha256(msg.sender, now));
+        packageMapping[uniqueId].isUidGenerated = true;
+        packageMapping[uniqueId].itemID = _itemID;
+        packageMapping[uniqueId].itemName = _itemName;
+    }
 }
