@@ -6,4 +6,8 @@ contract Wallet {
     event Deposit(address sender, uint256 amount, uint256 balance);
     event Withdraw(uint256 amount, uint256 balance);
     event Transfer(address to, uint256 amount, uint256 balance);
+
+    function deposit() public payable {
+        emit Deposit(msg.sender, msg.value, address(this).balance);
+    }
 }
