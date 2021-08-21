@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 //the account page
-class Account extends StatefulWidget {
-  Account({Key? key}) : super(key: key);
+class Grocery extends StatefulWidget {
+  Grocery({Key? key}) : super(key: key);
 
   @override
-  _AccountState createState() => _AccountState();
+  _GroceryState createState() => _GroceryState();
 }
 
-class _AccountState extends State<Account> {
+class _GroceryState extends State<Grocery> {
   @override
   Widget build(BuildContext context) {
     return Container(

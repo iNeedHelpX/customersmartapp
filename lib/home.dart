@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
   final _pageOptions = [
     Food(),
     Shopping(),
-    Account(),
+    Grocery(),
   ];
   @override
   Widget build(BuildContext context) {

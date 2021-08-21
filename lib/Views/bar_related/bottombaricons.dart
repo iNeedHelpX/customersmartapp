@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 //the navbar icons
 List<Widget> listBarIcons() {
@@ -14,7 +15,7 @@ List<Widget> listBarIcons() {
       color: Colors.black,
     ),
     Icon(
-      Icons.account_circle,
+      FontAwesomeIcons.carrot,
       size: 30,
       color: Colors.black,
     )
