@@ -25,8 +25,9 @@ AppBar pinkAppBar(BuildContext context) {
             bottomSheet(context);
           },
         ),
-      )
+      ),
     ],
+
     flexibleSpace: ClipRRect(
       borderRadius: BorderRadius.only(
         bottomLeft: Radius.circular(24),
