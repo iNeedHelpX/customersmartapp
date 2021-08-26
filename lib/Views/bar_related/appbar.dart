@@ -48,7 +48,7 @@ AppBar pinkAppBar(BuildContext context) {
         bottomRight: Radius.circular(20),
       ),
     ),
-    //set size of appbar
+    //set size of appbar. This is sort of big
     bottom: PreferredSize(
       preferredSize: Size.fromHeight(70),
       child: Stack(
