@@ -1,7 +1,7 @@
 import 'package:customersmartapp/Views/containers/comingsoon.dart';
 import 'package:flutter/material.dart';
 
-//not currently in use
+// the groceries page!
 class GroceryShop extends StatefulWidget {
   GroceryShop({Key? key}) : super(key: key);
 
