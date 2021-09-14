@@ -1,9 +1,9 @@
-import 'package:community_material_icon/community_material_icon.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_boxicons/flutter_boxicons.dart';
 
+//the container that serves details on the main shopping pages
 class CustomContainer extends StatefulWidget {
   // final String deliveryfee;
 
