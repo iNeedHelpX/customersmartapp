@@ -1,3 +1,4 @@
+import 'package:customersmartapp/Views/containers/comingsoon.dart';
 import 'package:flutter/material.dart';
 
 //not currently in use
@@ -11,8 +12,8 @@ class GroceryShop extends StatefulWidget {
 class _GroceryShopState extends State<GroceryShop> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: null,
+    return Column(
+      children: [ComingSoon(text: 'Groceries', subtext: 'coming soon')],
     );
   }
 }
