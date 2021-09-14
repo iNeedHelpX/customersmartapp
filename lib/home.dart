@@ -1,8 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:customersmartapp/account.dart';
 import 'package:customersmartapp/Views/bar_related/appbar.dart';
 import 'package:customersmartapp/Views/bar_related/bottombaricons.dart';
 import 'package:customersmartapp/food.dart';
+import 'package:customersmartapp/grocery.dart';
 import 'package:customersmartapp/shopping.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
   final _pageOptions = [
     Food(),
     Shopping(),
-    Grocery(),
+    GroceryShop(),
   ];
   @override
   Widget build(BuildContext context) {
