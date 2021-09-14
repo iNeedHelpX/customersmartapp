@@ -28,6 +28,8 @@ dependencies:
   web3dart: ^2.3.1
   font_awesome_flutter: ^9.1.0
   crypto_font_icons: ^1.0.1
+  flutter_boxicons: ^3.0.0
+
   velocity_x: ^3.3.0
 
   # The following adds the Cupertino Icons font to your application.

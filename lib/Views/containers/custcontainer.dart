@@ -1,6 +1,8 @@
+import 'package:community_material_icon/community_material_icon.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_boxicons/flutter_boxicons.dart';
 
 class CustomContainer extends StatefulWidget {
   // final String deliveryfee;
@@ -50,9 +52,9 @@ class _CustomContainerState extends State<CustomContainer> {
                         right: 10,
                         top: 10,
                         child: Icon(
-                          Icons.favorite,
-                          color: Colors.grey.shade800,
-                          size: 20.0,
+                          Boxicons.bxs_purchase_tag,
+                          color: Color.fromARGB(255, 119, 11, 254),
+                          size: 30.0,
                         ),
                       ),
                       Positioned(
@@ -76,15 +78,15 @@ class _CustomContainerState extends State<CustomContainer> {
                           ),
                         ),
                       ),
-                      Positioned(
-                        right: 8,
-                        top: 8,
-                        child: Icon(
-                          Icons.favorite_border,
-                          color: Colors.white,
-                          size: 24.0,
-                        ),
-                      ),
+                      // Positioned(
+                      //   right: 8,
+                      //   top: 8,
+                      //   child: Icon(
+                      //     Icons.favorite_border,
+                      //     color: Colors.white,
+                      //     size: 24.0,
+                      //   ),
+                      // ),
                     ],
                   ),
                   Container(
