@@ -16,7 +16,7 @@ class _GroceryShopState extends State<GroceryShop> {
       children: [
         ComingSoon(
             text: 'Groceries coming soon',
-            subtext: 'delivery in 15 mins to your door')
+            subtext: 'delivery in 15 mins to your door'),
       ],
     );
   }
