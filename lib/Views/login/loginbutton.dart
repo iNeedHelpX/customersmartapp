@@ -1,7 +1,7 @@
 import 'package:customersmartapp/colors/cominggrad.dart';
 import 'package:flutter/material.dart';
 
-//login button at bottom of the box page. Its a rounded corner button
+//login button at bottom of the box page. Its a rounded corner button. says login in the middle
 class LoginButtonContainer extends StatelessWidget {
   final String loginButton;
   const LoginButtonContainer({required this.loginButton});
