@@ -7,6 +7,7 @@ import 'package:customersmartapp/shopping.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 
+//sets up the main home environment of the app
 class Home extends StatefulWidget {
   Home({Key? key}) : super(key: key);
 
