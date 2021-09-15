@@ -2,6 +2,7 @@ import 'package:customersmartapp/home.dart';
 import 'package:customersmartapp/route_generator.dart';
 import 'package:flutter/material.dart';
 
+// the entry point of the app. Leads into the homepage
 class EnterPoint extends StatefulWidget {
   EnterPoint({Key? key}) : super(key: key);
 
