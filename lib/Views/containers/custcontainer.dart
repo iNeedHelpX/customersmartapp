@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_boxicons/flutter_boxicons.dart';
 
-//the container that serves details on the main shopping pages
-class CustomContainer extends StatefulWidget {
+//the container that shows item deets on the main shopping pages
+class ItemContainer extends StatefulWidget {
   // final String deliveryfee;
 
-  CustomContainer({
+  ItemContainer({
     required this.imgurl,
     required this.name,
     //this is the item fee not delivery per se!
@@ -19,10 +19,10 @@ class CustomContainer extends StatefulWidget {
   final String name;
 
   @override
-  _CustomContainerState createState() => _CustomContainerState();
+  _ItemContainerState createState() => _ItemContainerState();
 }
 
-class _CustomContainerState extends State<CustomContainer> {
+class _ItemContainerState extends State<ItemContainer> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
