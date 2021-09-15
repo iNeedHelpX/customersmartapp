@@ -16,7 +16,7 @@ class _ShoppingState extends State<Shopping> {
         child: SingleChildScrollView(
       child: Column(
         children: [
-          CustomContainer(
+          ItemContainer(
               imgurl:
                   'https://cdn.shopify.com/s/files/1/0379/3698/8205/files/ezgif-4-1b11c1aa67e3_480x480.gif?v=1597420502',
               name: 'Glow Face Mask',
@@ -24,7 +24,7 @@ class _ShoppingState extends State<Shopping> {
           SizedBox(
             height: 20,
           ),
-          CustomContainer(
+          ItemContainer(
               imgurl:
                   'https://sc04.alicdn.com/kf/Hea2914ce4f9f4d4daf2be954652a4839g.jpg',
               name: "Menstrual Cup",
