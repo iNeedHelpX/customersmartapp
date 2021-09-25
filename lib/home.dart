@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: bg,
+      backgroundColor: text,
       appBar: pinkAppBar(context),
       resizeToAvoidBottomInset: true,
       body: _pageOptions[selectedpage],
@@ -42,7 +42,7 @@ class _HomeState extends State<Home> {
       index: selectedpage,
       buttonBackgroundColor: tabicon,
       color: tabicon,
-      backgroundColor: bg.withOpacity(0.5),
+      backgroundColor: bg.withOpacity(0.7),
       animationCurve: Curves.linearToEaseOut,
       items: listBarIcons(),
       onTap: (index) {
