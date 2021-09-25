@@ -26,7 +26,6 @@ dependencies:
   curved_navigation_bar: ^1.0.1
   google_sign_in: ^5.1.1
   flutter_secure_storage: ^4.2.1
-
   web3dart: ^2.3.1
   font_awesome_flutter: ^9.1.0
   crypto_font_icons: ^1.0.1
