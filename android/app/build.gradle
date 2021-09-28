@@ -40,6 +40,13 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
+    signingConfigs{
+        debug{
+            keyAlias 'androiddebugkey'
+            keyPassword '000000'
+            storeFile file('mykey.jks')
+        }
+    }
 
     buildTypes {
         release {
