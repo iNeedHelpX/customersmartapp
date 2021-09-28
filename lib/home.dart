@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: text,
+      backgroundColor: bg,
       appBar: pinkAppBar(context),
       resizeToAvoidBottomInset: true,
       body: _pageOptions[selectedpage],
