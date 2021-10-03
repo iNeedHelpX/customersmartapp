@@ -1,6 +1,6 @@
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:flutter_boxicons/flutter_boxicons.dart';
 
 //the container that shows item deets on the main shopping pages
