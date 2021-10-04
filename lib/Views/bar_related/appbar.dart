@@ -102,7 +102,9 @@ Future<dynamic> bottomSheet(BuildContext context) {
               // SizedBox(height: 10),
               // PasswordText(passwordQue: 'enter password'),
               SizedBox(height: 10),
-              LoginButtonContainer(loginButton: 'Login with google')
+              LoginButtonContainer(loginButton: 'Login with google'),
+              SizedBox(height: 10),
+              LoginButtonContainer(loginButton: 'Login with facebook')
             ],
           ),
           //decoration: BoxDecoration(gradient: gradSheet()),
