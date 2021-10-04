@@ -11,8 +11,9 @@ class LoginButtonContainer extends StatelessWidget {
     return Container(
       //this keeps text aligned to center of button
       alignment: Alignment.center,
-      height: 50,
-      width: 78,
+      padding: EdgeInsets.all(20),
+      // height: 50,
+      // width: 78,
       decoration: BoxDecoration(
         gradient: upComing(),
         borderRadius: BorderRadius.circular(22),

@@ -97,12 +97,12 @@ Future<dynamic> bottomSheet(BuildContext context) {
           child: Column(
             children: [
               EmailText(
-                emailQue: 'enter email',
+                emailQue: 'enter email here',
               ),
               SizedBox(height: 10),
               PasswordText(passwordQue: 'enter password'),
               SizedBox(height: 10),
-              LoginButtonContainer(loginButton: 'Login')
+              LoginButtonContainer(loginButton: 'Login with google')
             ],
           ),
           //decoration: BoxDecoration(gradient: gradSheet()),
