@@ -26,7 +26,7 @@ class _PasswordTextState extends State<PasswordText> {
       obscureText: hidePassword,
       decoration: InputDecoration(
         hintStyle: TextStyle(color: text4, fontWeight: FontWeight.w500),
-        hintText: "Password",
+        hintText: "Password here",
         enabledBorder: UnderlineInputBorder(
           borderSide: BorderSide(color: Colors.amber.withOpacity(0.2)),
         ),

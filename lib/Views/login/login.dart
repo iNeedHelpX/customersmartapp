@@ -3,6 +3,8 @@ import 'package:customersmartapp/Views/login/passwordtext.dart';
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 
+//not in use
+/*
 class Login extends StatefulWidget {
   Login({Key? key}) : super(key: key);
 
@@ -34,7 +36,7 @@ class _LoginState extends State<Login> {
             children: [
               SizedBox(height: 25),
               Text(
-                "Login",
+                "Login now",
                 style: Theme.of(context).textTheme.headline2,
               ),
               SizedBox(height: 20),
@@ -52,3 +54,4 @@ class _LoginState extends State<Login> {
     ]);
   }
 }
+*/
