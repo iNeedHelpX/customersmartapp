@@ -1,7 +1,7 @@
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 
-//handle email
+//handle email. not in use
 class EmailText extends StatefulWidget {
   final String emailQue;
   const EmailText({

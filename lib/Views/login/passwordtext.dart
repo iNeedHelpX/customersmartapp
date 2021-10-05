@@ -1,7 +1,7 @@
 import 'package:customersmartapp/colors/colors.dart';
 import 'package:flutter/material.dart';
 
-//handle password
+//handle password. not in use
 class PasswordText extends StatefulWidget {
   final String passwordQue;
 
