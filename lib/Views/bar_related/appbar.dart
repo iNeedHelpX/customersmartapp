@@ -102,6 +102,8 @@ Future<dynamic> bottomSheet(BuildContext context) {
               // SizedBox(height: 10),
               // PasswordText(passwordQue: 'enter password'),
               SizedBox(height: 10),
+              ElevatedButton(
+                  style: ButtonStyle(), onPressed: () {}, child: Text('login')),
               LoginButtonContainer(loginButton: 'Login with google'),
               SizedBox(height: 10),
               LoginButtonContainer(loginButton: 'Login with facebook')
